@@ -1,0 +1,199 @@
+<html>
+<head>
+  <title>Hairdresser Mirko</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<link rel="stylesheet" href="index.css">
+</head>
+<body>
+  <nav class="navbar navbar-inverse ">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand">Hairdresser Mirko</a>
+    </div>
+    <ul class="nav navbar-nav navbar-right">
+      <li><a>Kaj Nudimo</a></li>
+      <li><a>Naroči se</a></li>
+      <li><a>FAQ</a></li>
+      <li><a data-toggle="modal" data-target="#myModal">O nas</a></li>
+      <form class="navbar-form navbar-right">
+        <div class="form-group">
+          <input type="text" class="form-control" placeholder="Iskalnik">
+        </div>
+        </form>
+    </ul>
+    </div>
+  </nav>
+  <div class="naslovnica">
+    <div class="slider-holder">
+    <span id="slider-image-1"></span>
+    <span id="slider-image-2"></span>
+    <span id="slider-image-3"></span>
+    <div class="image-holder">
+        <img src="http://weknowyourdreams.com/images/hairdresser/hairdresser-10.jpg" class="slider-image" height="400px" width="800px">
+        <img src="http://www.jazzhairdressing.co.uk/wp-content/uploads/2013/08/Salon-Hair-Up.jpg" class="slider-image" height="400px" width="800px">
+        <img src="https://storage.googleapis.com/smartninja-org-assets/curriculums/wd1/img/hairsalon-slider-2.jpg" class="slider-image" height="400px" width="800px">
+    </div>
+    <div class="button-holder">
+        <a href="#slider-image-1" class="slider-change"></a>
+        <a href="#slider-image-2" class="slider-change"></a>
+        <a href="#slider-image-3" class="slider-change"></a>
+  </div>
+</div>
+</div>
+  <div class="container" id="ponudba">
+      <h2 class="naslovSredina">Kaj Nudimo</h2>
+
+      <div class="row">
+          <div class="col-md-4">
+              <h4>Nega las<span class="glyphicon glyphicon-star-empty"></span></h4>
+              <img src="slike/nega.jpg">
+          </div>
+
+          <div class="col-md-4">
+              <h4>Barvanje<span class="glyphicon glyphicon-tint"></span></h4>
+              <img src="slike/barvanje.jpg">
+          </div>
+
+          <div class="col-md-4">
+              <h4>Striženje<span class="glyphicon glyphicon-scissors"></span></h4>
+              <img src="slike/strizenje.jpg">
+          </div>
+      </div>
+  </div>
+  <div class="container" id="narocise">
+      <h2 class="naslovSredina">Naroči se</h2>
+      <br>
+
+      <div class="row">
+        <div class="form-group">
+          <input type="text" class="form-control" placeholder="Ime in priimek"> <br>
+          <input type="text" class="form-control" placeholder="Tel. številka"> <br>
+          <input type="text" class="form-control" placeholder="Termin"> <br>
+          <div class="form-group">
+            <textarea class="form-control ostalo" placeholder="Ostalo (želje glede pričeske itd.)"rows="3"></textarea>
+          </div>
+           <input class="klukca form-check-input" type="checkbox">
+            Strinjam se, da je Mirko najboljši frizer.
+           <br>
+          <button type="submit" class="gumb btn btn-info">Pošlji</button>
+        </div>
+
+          <div class="tabelca col-md-4 col-md-offset-1">
+              <table class="table table-bordered table-hover">
+              <thead>
+                  <tr>
+                      <th>Dan</th>
+                      <th>Delovne ure</th>
+                  </tr>
+              </thead>
+
+              <tbody>
+                  <tr>
+                      <td>Ponedeljek</td>
+                      <td>8:00 - 16:00</td>
+                  </tr>
+
+                  <tr>
+                      <td>Torek</td>
+                      <td>10:00 - 18:00</td>
+                  </tr>
+
+                  <tr>
+                      <td>Sreda</td>
+                      <td>8:00 - 16:00</td>
+                  </tr>
+
+                  <tr>
+                      <td>Četrtek</td>
+                      <td>8:00 - 16:00</td>
+                  </tr>
+
+                  <tr>
+                      <td>Petek</td>
+                      <td>12:00 - 20:00</td>
+                  </tr>
+
+                  <tr>
+                      <td>Sobota</td>
+                      <td>8:00 - 16:00</td>
+                  </tr>
+
+                  <tr>
+                      <td>Nedelja</td>
+                      <td>8:00 - 12:00</td>
+                  </tr>
+              </tbody>
+              </table>
+              <p>* Ob praznikih velja nedeljski urnik</p>
+          </div>
+      </div>
+  </div>
+  <div class="container" id="faq">
+      <h2 class="naslovSredina">FAQ (pogosta vprašanja)</h2>
+      <br>
+      <div class="panel-group">
+          <div class="crna panel">
+            <div class="panel-heading"><b><a>Kakšen je salon in ekipa?</a></b></div>
+            <div class="panel-body">Salon je prostoren in domač in v njem delajo prijazne in sposobne frizerke, ki oblikujejo pričeske z občutkom in domšlijo. <br> <br>
+        Smo relativno mlad kolektiv, vedno nasmejani, prijazni. Imamo dolgoletne izkušnje s profesionalno lasno kozmetiko <b>Schwarzkopf</b>, v dogovoru z dolgoletnim partnerjem <b>Hair Beauty d.o.o.</b> smo pa letos septembra začeli delati s profesionalno lasmo kozmetiko <b>Indola</b>, katero oni distribuirajo.</div>
+      </div> <br>
+      <div class="alert alert-info" role="alert"><b><a>Ali sprejemate hišne ljubljenčke?<a></b></div>
+      <div class="alert alert-info" role="alert"><b><a>Imate kakšne nagrade s tekmovanj?</a></b></div>
+      <footer class="container">
+          <div class="row">
+              <div class="col-md-4 col-md-offset-1">
+                  <h3><b>Kontakt</b></h3>
+                  <p>Frizer Mirko s.p.</p>
+                  <p>Davčna št.: 324324234</p>
+                  <p>Frizerska ulica 5, 1000 Ljubljana</p>
+                  <p>Tel.: 01/34543546</p>
+                  <p>Email: frizer.mirko@f-mirko.com</p>
+              </div>
+
+              <div class="col-md-4">
+                  <img class="img-responsive" width="200px"  src="slike/logo.png">
+              </div>
+
+              <div class="col-md-3">
+                  <h3><b>Navigacija</b></h3>
+                  <p><a class="Acrn">Kaj nudimo</a></p>
+                  <p><a class="Acrn">Naroči se</a></p>
+                  <p><a class="Acrn">Pogosta vprašanja</a></p>
+                  <p><a class="Acrn" data-toggle="modal" data-target="#myModal">O nas</a></p>
+              </div>
+          </div>
+      </footer>
+      <div id="myModal" class="modal fade" role="dialog">
+          <div class="modal-dialog">
+              <div class="modal-content">
+                  <div class="modal-header">
+                      <button type="button" class="close" data-dismiss="modal"></button>
+                      <h4 class="modal-title"><b>O nas</b></h4>
+                  </div>
+
+                  <div class="modal-body">
+                    Smo relativno mlad kolektiv, vedno nasmejani, prijazni. Imamo dolgoletne izkušnje s profesionalno lasno kozmetiko <b>Schwarzkopf</b>,
+                    v dogovoru z dolgoletnim partnerjem <b>Hair Beauty d.o.o.</b> smo pa letos septembra začeli delati s profesionalno lasmo kozmetiko <b>Indola</b>,
+                    katero oni distribuirajo.
+                      <br>
+                      <br>
+                    Salon je prostoren in domač in v njem delajo prijazne in sposobne frizerke, ki oblikujejo pričeske z občutkom in domšlijo.
+                      <br>
+                      <br>
+                    Pri nas je dobrodošel vsak, prepričani smo, da bomo želji vsakega posameznika lahko ustregli v našem delovnem času.
+                    Pravijo, da ni pomembna dolžina las, temveč šteje le urejena pričeska.
+                    <br>
+                    <br>
+                      <img class="img-responsive" src="http://www.jazzhairdressing.co.uk/wp-content/uploads/2013/08/Salon-Hair-Up.jpg">
+                  </div>
+
+                  <div class="modal-footer">
+                      <button type="button" class="btn btn-default" data-dismiss="modal">Zapri</button>
+                  </div>
+              </div>
+          </div>
+      </div>
+</body>
+</html>
